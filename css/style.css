@@ -128,9 +128,28 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
+/* Tablet Version */
 @media screen and (max-width: 768px){
     .container{
         width: 768px;
+    }
+}
+
+* smartphone version */
+@media screen and (max-width: 480px){
+   .container{
+        width: 350px;
+   }
+
+   .row{
+        display: block;
+   }
+
+   .lessons .col, .steps .col, .why-us .col {
+        width: 100%;
+    }
+
+    .col{
+        margin-bottom: 50px;
     }
 }
